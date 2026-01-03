@@ -1,7 +1,7 @@
 // 4 digit binary-coded decimal adder
 
 // module bcd_fadd (
-//     input [3:0] a,
+//    input [3:0] a,
 //    input [3:0] b,
 //    input     cin,
 //    output   cout,
