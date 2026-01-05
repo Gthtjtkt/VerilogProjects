@@ -5,7 +5,7 @@ module top_module(
     input [3:0] sel,
     output [15:0] out );
     
-    always @(*) begin
+    always @(*) begin // '*' indicates a change in any input signal
         case (sel)
             4'd0: out = a;
             4'd1: out = b;
