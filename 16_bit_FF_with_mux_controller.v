@@ -12,8 +12,8 @@ module top_module (
 );
 
     always @(posedge clk) begin
-        if (!resetn) begin
-            q <= 16'h0000; // synchronous reset
+        if (!resetn) begin // synchronous reset, active low
+            q <= 16'h0000;
         end
         else begin
             if (byteena[0])         // if the first bit of the input signal, byteena, is 1, 
