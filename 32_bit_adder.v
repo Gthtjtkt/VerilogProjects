@@ -22,7 +22,7 @@ module top_module(
         .a(a[15:0]),
         .b(b[15:0]),
         .cin(1'b0),
-        .cout(a16_1_cout),
+        .cout(carry16),
         .sum(sum[15:0])
     );
              
