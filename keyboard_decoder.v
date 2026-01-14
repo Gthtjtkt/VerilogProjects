@@ -6,6 +6,8 @@ Decodes the 16-bit keyboard scancode into four direction signals:
 - down  (scancode = 16'he072)
 - right (scancode = 16'he074)
 - up    (scancode = 16'he075)
+
+This module has no latches because all outputs are assigned in every possible case.
 */
 
 module top_module (
